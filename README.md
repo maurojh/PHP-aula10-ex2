@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-11-12 ter 16:53 -->
+<!-- 2019-11-12 ter 16:55 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -232,25 +232,25 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org37236c1">1. Mercado</a>
+<li><a href="#org306c6c7">1. Mercado</a>
 <ul>
-<li><a href="#orgdc4ef4e">1.1. Exercício 1</a></li>
-<li><a href="#org65a0a6f">1.2. Exercício 2</a></li>
+<li><a href="#orgd6e881e">1.1. Exercício 1</a></li>
+<li><a href="#orgd567f0c">1.2. Exercício 2</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org37236c1" class="outline-2">
-<h2 id="org37236c1"><span class="section-number-2">1</span> Mercado</h2>
+<div id="outline-container-org306c6c7" class="outline-2">
+<h2 id="org306c6c7"><span class="section-number-2">1</span> Mercado</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Na aula de hoje vamos criar um sistema de cadastro de produtos.
 </p>
 </div>
 
-<div id="outline-container-orgdc4ef4e" class="outline-3">
-<h3 id="orgdc4ef4e"><span class="section-number-3">1.1</span> Exercício 1</h3>
+<div id="outline-container-orgd6e881e" class="outline-3">
+<h3 id="orgd6e881e"><span class="section-number-3">1.1</span> Exercício 1</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 Execute o wampserver64, acesse <a href="http://localhost/phpmyadmin">http://localhost/phpmyadmin</a> e importe o arquivo abaixo para criar o banco e a tabela:
@@ -306,8 +306,8 @@ COMMIT;
 </div>
 </div>
 
-<div id="outline-container-org65a0a6f" class="outline-3">
-<h3 id="org65a0a6f"><span class="section-number-3">1.2</span> Exercício 2</h3>
+<div id="outline-container-orgd567f0c" class="outline-3">
+<h3 id="orgd567f0c"><span class="section-number-3">1.2</span> Exercício 2</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 Crie a página <b>form.php</b> que recebe os seguintes dados do produto:
@@ -315,12 +315,18 @@ Crie a página <b>form.php</b> que recebe os seguintes dados do produto:
 
 <p>
 <b>Nome</b>:
+</p>
+
+<p>
 <b>Preço</b>:
+</p>
+
+<p>
 <b>Imagem</b>:
 </p>
 
 <p>
-Lembre-se que a imagem será enviada e por isso o elemento form deve conter:
+Lembre-se que a imagem será enviada e por isso o elemento form deve conter, além de action:
 </p>
 
 <p>
@@ -332,9 +338,8 @@ Lembre-se que a imagem será enviada e por isso o elemento form deve conter:
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2019-11-12 ter 16:53</p>
+<p class="date">Created: 2019-11-12 ter 16:55</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>
-
